@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="https://kit.fontawesome.com/0abbda2fd3.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.min.css">
+        
+        <title>Registreringsformulär</title>
+    </head>
+    <body>
+    
+<form>
+    <div class="bgImage">
+      <div class="formWrap">
+        <p>Registrera dig här!</p>
+        <input type="text" name="firstname" placeholder="förnamn" required />
+        <input type="text" name="lastname" placeholder="efternamn" required />
+        <input type="email" name="email" placeholder="E-postadress" />
+        <input type="password" name="password" placeholder="lösenord" />
+        <input type="password" name="password" placeholder="bekräfta lösenord" /><br><br>
+
+        <input type="text" name="postaddress" placeholder="faktureringadress" />
+        <input type="text" name="postalcode and city" placeholder="postnummer och ort" />
+         <br><br>
+
+        <input type="text" name="deliveryaddress" placeholder="leveransadress" />
+        <input type="text" name="postalcode and city" placeholder="postnummer och ort" />
+      
+        <input type="checkbox" value="" id="termsandconditionCheck" required>
+        <label class="check-label" for="termsandconditionCheck" style="color: white;">
+                                Jag har läst och accepterar <a href="#">GDPR och användarvillkoren</a>
+        </label><br>
+
+        <input type="checkbox" value="" id="adCheck" required>
+        <label class="check-label2" for="adCheck" style="color: white;">
+            Jag vill ta del av nyhetsbrev och reklamerbjudanden
+        </label>
+
+        <input type="submit" id="submit" class="submit" value="Skicka" />
+      </div>
+    </div>
+  </form>
+  
+        
+    </body>
+</html>
